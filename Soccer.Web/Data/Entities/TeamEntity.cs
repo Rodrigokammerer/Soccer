@@ -18,6 +18,7 @@ namespace Soccer.Web.Data.Entities
         public string LogoPath { get; set; }
 
         public ICollection<GroupDetailEntity> GroupDetails { get; set; }
+        public ICollection<UserEntity> Users { get; set; }
 
 
     }
