@@ -10,8 +10,8 @@ using Soccer.Web.Data;
 namespace Soccer.Web.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200511200400_Users")]
-    partial class Users
+    [Migration("20200525182301_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
