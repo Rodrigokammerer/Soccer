@@ -21,6 +21,8 @@ namespace Soccer.Common.Models
 
         public string LogoPath { get; set; }
 
-        public ICollection<GroupResponse> Groups { get; set; }
+       
+        public List<GroupResponse> Groups { get; set; }
+
     }
 }
